@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hack Day</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+</head>
+<body ng-app="hackDayApp">
+    <div class="container">
+        <!-- Header with Slideshow -->
+        <div class="header">
+            <div class="header-wrapper">
+                <a class="ef-logo" href="/">
+                    <div>
+                        <img src="images/logo.svg" />
+                    </div>
+                </a>
+                <div class="subtitle">
+                    <span class="subtitle__text">The World Leader in International Education</span>
+                </div>
+            </div>
+        </div>
+        
+        <div ng-view>
+        <!--<img src="../images/1.jpg" id="main-content">-->
+        </div>
+        <!-- Footer -->
+        <div footer class="footer">
+            <p>Powered by <a href="http://www.ef.com/" target="_blank" class="w3-hover-text-green">ef.com</a></p>
+        </div>
+    </div>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-sanitize.min.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-touch.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <script src="Scripts/App/app.js"></script>
+    <script src="Scripts/App/Controllers/HomeController.js"></script>
+
+</body>
+</html>
