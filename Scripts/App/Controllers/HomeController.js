@@ -14,7 +14,7 @@ angular.module('hackDayApp')
                 templateUrl: 'myModalContent.html',
                 controller: 'ModalInstanceCtrl',
                 controllerAs: '$ctrl',
-                size: size,
+                size: 'sm',
                 appendTo: parentElem,
                 resolve: {
                     items: function () {

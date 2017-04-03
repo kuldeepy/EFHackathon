@@ -77,3 +77,15 @@ body {
         width: 190px;
         height: 114px;
     }
+/* Styles for Small Modal
+   Changes slide-up animation to slide-down */
+.modal-dialog.modal-sm {
+  -webkit-transform: translate(-25%,10%) !important;
+  -ms-transform: translate(-25%,10%) !important;
+  transform: translate(-25%,10%) !important;
+}
+.modal.in > .modal-dialog.modal-sm {
+  -webkit-transform: translate(25%,30%) !important;
+  -ms-transform: translate(25%,30%) !important;
+  transform: translate(25%,30%) !important;
+}
